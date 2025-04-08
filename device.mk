@@ -60,6 +60,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.paranoid.maintainer=Chethan(No_Cache)
 
+# RemovePackages
+ PRODUCT_PACKAGES += \
+     RemovePackagesOscaro
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

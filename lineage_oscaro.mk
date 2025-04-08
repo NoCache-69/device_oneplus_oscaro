@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # LunarisAOSP Flags
 LUNARIS_BUILD_TYPE := OFFICIAL
-WITH_GMS := true
+WITH_GMS := false
 TARGET_OPTIMIZED_DEXOPT := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
@@ -34,9 +34,9 @@ LUNARIS_CPU_DISPLAY := 0-5
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscaro
 PRODUCT_DEVICE := oscaro
-PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := CPH2381
-PRODUCT_MANUFACTURER := oneplus
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := Nord CE2 Lite 5G
+PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
