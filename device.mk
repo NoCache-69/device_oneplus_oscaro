@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Dolby 
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     init.device.rc

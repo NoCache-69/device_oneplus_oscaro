@@ -4,7 +4,7 @@ git clone https://github.com/NoCache-69/vendor_oneplus_oscaro.git -b 16.0 vendor
 git clone https://github.com/NoCache-69/vendor_oneplus_sm6375-common.git -b 16.0 vendor/oneplus/sm6375-common
 git clone https://github.com/NoCache-69/android_kernel_oneplus_sm6375.git -b 16.0 kernel/oneplus/sm6375
 git clone https://github.com/NoCache-69/android_hardware_oplus.git -b lineage-22.2 hardware/oplus
-
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b moto-1.0 hardware/dolby
 
 # Initialize KSU-Next
 cd kernel/oneplus/sm6375
