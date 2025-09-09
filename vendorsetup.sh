@@ -1,5 +1,5 @@
 # Clone device specific repos
-git clone https://github.com/NoCache-69/device_oneplus_sm6375-common.git -b 16.0 device/oneplus/sm6375-common
+git clone https://github.com/NoCache-69/device_oneplus_sm6375-common.git -b lunaris device/oneplus/sm6375-common
 git clone https://github.com/NoCache-69/vendor_oneplus_oscaro.git -b 16.0 vendor/oneplus/oscaro
 git clone https://github.com/NoCache-69/vendor_oneplus_sm6375-common.git -b 16.0 vendor/oneplus/sm6375-common
 git clone https://github.com/NoCache-69/android_kernel_oneplus_sm6375.git -b 16.0 kernel/oneplus/sm6375
@@ -13,3 +13,8 @@ git submodule init
 git submodule update
 bash setup*
 cd ../../..
+
+# Sign Build
+git clone https://github.com/Lunaris-AOSP/vendor_lunaris-priv_keys.git vendor/lunaris-priv/keys
+cd vendor/lunaris-priv/keys
+./keys.sh

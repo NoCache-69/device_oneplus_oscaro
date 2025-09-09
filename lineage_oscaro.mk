@@ -15,6 +15,23 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from oscaro device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# LunarisAOSP Flags
+LUNARIS_BUILD_TYPE := OFFICIAL
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_USE_LOWRAM_PROFILE := true
+
+# Define CPU Set
+LUNARIS_CPU_SMALL_CORES := 0,1,2,3,4,5
+LUNARIS_CPU_BIG_CORES := 6,7
+LUNARIS_ALL_CORES := 0-7
+LUNARIS_CPU_BG := 0-3
+LUNARIS_CPU_FG := 0-7
+LUNARIS_CPU_LIMIT_BG := 0-1
+LUNARIS_CPU_LIMIT_UI := 0-3
+LUNARIS_CPU_DISPLAY := 0-5
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscaro
 PRODUCT_DEVICE := oscaro
