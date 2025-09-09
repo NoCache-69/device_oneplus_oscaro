@@ -31,6 +31,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Dolby 
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     init.device.rc
