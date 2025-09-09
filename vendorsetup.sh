@@ -1,5 +1,5 @@
 # Clone device specific repos
-git clone https://github.com/NoCache-69/device_oneplus_sm6375-common.git -b lunaris device/oneplus/sm6375-common
+git clone https://github.com/NoCache-69/device_oneplus_sm6375-common.git -b inf device/oneplus/sm6375-common
 git clone https://github.com/NoCache-69/vendor_oneplus_oscaro.git -b 16.0 vendor/oneplus/oscaro
 git clone https://github.com/NoCache-69/vendor_oneplus_sm6375-common.git -b 16.0 vendor/oneplus/sm6375-common
 git clone https://github.com/NoCache-69/android_kernel_oneplus_sm6375.git -b 16.0 kernel/oneplus/sm6375
@@ -15,6 +15,7 @@ bash setup*
 cd ../../..
 
 # Sign Build
-git clone https://github.com/Lunaris-AOSP/vendor_lunaris-priv_keys.git vendor/lunaris-priv/keys
-cd vendor/lunaris-priv/keys
+git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-template vendor/infinity-priv/keys
+cd vendor/infinity-priv/keys
 ./keys.sh
+cd ../../..
