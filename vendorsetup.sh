@@ -13,3 +13,6 @@ git submodule init
 git submodule update
 bash setup*
 cd ../../..
+
+# Sign Builds
+gk -s
