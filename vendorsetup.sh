@@ -18,3 +18,4 @@ cd ../../..
 git clone https://github.com/Lunaris-AOSP/vendor_lunaris-priv_keys.git vendor/lunaris-priv/keys
 cd vendor/lunaris-priv/keys
 ./keys.sh
+cd ../../..
