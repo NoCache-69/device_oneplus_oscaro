@@ -56,10 +56,6 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget
 
-# Maintainer Flag
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.paranoid.maintainer=Chethan(No_Cache)
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
