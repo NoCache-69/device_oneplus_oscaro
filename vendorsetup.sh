@@ -13,3 +13,10 @@ git submodule init
 git submodule update
 bash setup*
 cd ../../..
+
+# Sign Build
+git clone https://github.com/Matrixx-Devices/vendor_lineage-priv.git vendor/lineage-priv/keys
+cd vendor/lineage-priv/keys
+chmod +x ./syslink.sh
+././syslink.sh
+cd ../../..

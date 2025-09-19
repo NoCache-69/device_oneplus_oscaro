@@ -15,6 +15,15 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from oscaro device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# ProjectMatrixx Flags
+WITH_GMS := true
+BYPASS_CHARGE_SUPPORTED  := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_STOCK_AICORE := false
+WITH_GMS_COMMS_SUITE := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscaro
 PRODUCT_DEVICE := oscaro
