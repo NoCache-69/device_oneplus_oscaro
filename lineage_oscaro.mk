@@ -17,7 +17,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # ProjectMatrixx Flags
 WITH_GMS := true
-BYPASS_CHARGE_SUPPORTED  := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
