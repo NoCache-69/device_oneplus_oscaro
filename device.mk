@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
 # RemovePackages
  PRODUCT_PACKAGES += \
      RemovePackagesOscaro
+# Include Gcam
+ PRODUCT_PACKAGES += \
+    LMC-Prebuilt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
