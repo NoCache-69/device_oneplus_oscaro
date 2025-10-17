@@ -63,6 +63,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # RemovePackages
  PRODUCT_PACKAGES += \
      RemovePackagesOscaro
+# Include Gcam
+ PRODUCT_PACKAGES += \
+    LMC-Prebuilt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
