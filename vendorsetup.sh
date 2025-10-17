@@ -6,6 +6,7 @@ git clone https://github.com/NoCache-69/android_kernel_oneplus_sm6375.git -b 16.
 git clone https://github.com/NoCache-69/android_hardware_oplus.git -b lineage-22.2 hardware/oplus
 git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b sony-1.1 hardware/dolby
 git clone https://github.com/AxionAOSP/android_packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
+git clone https://github.com/NoCache-69/packages_apps_prebuilt-camera.git packages/apps/prebuilt
 
 # Initialize KSU-Next
 cd kernel/oneplus/sm6375
