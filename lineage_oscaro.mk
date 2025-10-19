@@ -16,6 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # ProjectMatrixx Flags
+MATRIXX_BUILD_TYPE := Official
 WITH_GMS := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
