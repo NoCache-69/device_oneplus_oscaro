@@ -17,7 +17,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # LunarisAOSP Flags
 LUNARIS_BUILD_TYPE := OFFICIAL
-WITH_GMS := false
+WITH_GMS := true
+
 TARGET_OPTIMIZED_DEXOPT := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
