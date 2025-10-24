@@ -24,3 +24,7 @@ cd ../../..
 # replace Ota strings for unofficial build
 rm -rf vendor/infinity/overlay/updater/res/values/strings.xml
 wget -P ./vendor/infinity/overlay/updater/res/values/ https://raw.githubusercontent.com/NoCache-69/inf_ota/refs/heads/16/strings.xml
+
+# Remove official updater and clone fork
+rm -rf packages/apps/Updater
+git clone https://github.com/NoCache-69/inf_packages_apps_Updater.git packages/apps/Updater
