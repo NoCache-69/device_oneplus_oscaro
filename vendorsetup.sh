@@ -16,7 +16,7 @@ bash setup*
 cd ../../..
 
 # Sign Build
-git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-template vendor/infinity-priv/keys
+git clone https://github.com/NoCache-69/vendor_infinity-priv_keys.git vendor/infinity-priv/keys
 cd vendor/infinity-priv/keys
 ./keys.sh
 cd ../../..
