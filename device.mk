@@ -67,6 +67,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
  PRODUCT_PACKAGES += \
     LMC-Prebuilt
 
+# Signing
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lunaris-priv/keys/releasekey
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
