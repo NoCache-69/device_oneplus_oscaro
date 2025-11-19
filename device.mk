@@ -28,7 +28,13 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Dolby 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    charger_res_images_vendor \
+    libsuspend
+
+# Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
 # ViPER4AndroidFX
