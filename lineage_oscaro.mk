@@ -18,22 +18,10 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # AxionAOSP Flags
 AXION_CAMERA_REAR_INFO := 64,2,2
 AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Chethan(NoCache)
+AXION_MAINTAINER := Chethan
 AXION_PROCESSOR := Snapdragon_695
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDES_LOS_PREBUILTS := true
-
-# CPU Set
-AXION_CPU_SMALL_CORES := 0,1,2,3,4,5
-AXION_CPU_BIG_CORES := 6,7
-AXION_CPU_BG := 0-2
-AXION_CPU_SYS_BG := 0-3
-AXION_CPU_FG := 0-7
-AXION_CPU_LIMIT_BG := 0-1
-AXION_ALL_CORES := 0-7
-AXION_CPU_LIMIT_UI := 0-3
-AXION_CPU_DISPLAY := 0-5
-PERF_ANIM_OVERRIDE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscaro
