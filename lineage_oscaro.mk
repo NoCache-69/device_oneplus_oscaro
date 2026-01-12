@@ -22,6 +22,7 @@ AXION_MAINTAINER := Chethan
 AXION_PROCESSOR := Snapdragon_695
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDES_LOS_PREBUILTS := true
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_oscaro
