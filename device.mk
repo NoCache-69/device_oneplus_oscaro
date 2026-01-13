@@ -28,7 +28,16 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Dolby 
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    charger_res_images_vendor \
+    libsuspend
+
+# Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
 # ViPER4AndroidFX
@@ -59,9 +68,6 @@ PRODUCT_PACKAGES += \
 # RemovePackages
  PRODUCT_PACKAGES += \
      RemovePackagesOscaro
-# Include Gcam
- PRODUCT_PACKAGES += \
-    LMC-Prebuilt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
