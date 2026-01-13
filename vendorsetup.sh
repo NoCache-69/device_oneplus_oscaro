@@ -6,7 +6,7 @@ git clone https://github.com/NoCache-69/android_kernel_oneplus_sm6375.git -b 16.
 git clone https://github.com/NoCache-69/hardware_oplus.git -b lineage-23.1 hardware/oplus
 git clone https://github.com/NoCache-69/hardware_dolby.git -b master hardware/dolby
 git clone https://github.com/AxionAOSP/android_packages_apps_ViPER4AndroidFX.git -b lineage-23.1 packages/apps/ViPER4AndroidFX
-git clone https://github.com/NoCache-69/packages_apps_prebuilt-camera.git packages/apps/prebuilt
+git clone https://gitlab.com/NoCache-69/proprietary_vendor_oplus_camera.git -b lineage-23.1 vendor/oplus/camera
 
 # Sign Build
 git clone https://github.com/Lunaris-AOSP/vendor_lunaris-priv_keys.git vendor/lunaris-priv/keys
